@@ -6,6 +6,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+enable_ssh_agent.sh
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
