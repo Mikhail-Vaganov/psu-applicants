@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ConsoleApplication
 {
@@ -11,7 +11,10 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            MoneyBox();
+            String str = "sample";
+            Int32 i = 32;
+            Boolean b = false;
+            Char c = 'd';
         }
 
         static private void DifferentTypes()
@@ -158,6 +161,17 @@ namespace ConsoleApplication
             Console.WriteLine();
             Console.WriteLine("Press enter...");
             Console.ReadLine();
+        }
+
+        private static void ShowMessage()
+        {
+            string input;
+            do
+            {
+                input = Console.ReadLine();
+                MessageBox.Show(input, "Сообщение из строки", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            while (input != "end");
         }
     }
 }
