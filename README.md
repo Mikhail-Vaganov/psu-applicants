@@ -1,1 +1,1 @@
-An applicatin for the Selection Committee
+An application for the Selection Committee
