@@ -139,6 +139,8 @@ namespace FacultyApplicants.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
+            ViewBag.Title = "Создание нового пользователя";
+            ViewBag.Message = "Введите данные о пользователе:";
             return View();
         }
 

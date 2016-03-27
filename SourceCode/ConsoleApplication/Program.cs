@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -11,10 +12,6 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            String str = "sample";
-            Int32 i = 32;
-            Boolean b = false;
-            Char c = 'd';
         }
 
         static private void DifferentTypes()

@@ -10,20 +10,22 @@ namespace FacultyApplicants.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Title = "Приемная комиссия физического факультета";
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Title = "О приложении «Абитуриенты физфака»";
+            ViewBag.Message = "Шаблонное приложение для курса ASP.NET MVC + Oracle Database";
+            ViewBag.Content = "Приложение предназначено для информирования поступающих на физический факультет о текущем рейтинге абитуриентов.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
+            ViewBag.Title = "Контакты";
             return View();
         }
     }

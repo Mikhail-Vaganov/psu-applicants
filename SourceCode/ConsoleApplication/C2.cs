@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ConsoleApplication
 {
@@ -12,6 +13,11 @@ namespace ConsoleApplication
         {
             this.protectedField = "protected";
             this.PublicField = "public";
+        }
+
+        public void TakeCandyAway()
+        {
+            MessageBox.Show("Конфета отобрана!");
         }
     }
 }
